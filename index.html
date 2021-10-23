@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon-16x16.png" type="image/x-icon">
+    <title>Challenge TodoPorteros by Drazen for Nucba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/66af92cb03.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="/assets/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa-window-close fa" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">INICIO</a> </li>
+                    <li><a href="">HISTORIA</a></li>
+                    <li><a href="">INGRESA</a> </li>
+                    <li><a href="">CONTACTANOS</a> </li>
+                </ul>
+            </div>
+            <i class="fas fa-bars fa" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Todo para los porteros</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Eligendi ea aspernatur dolor dolorum sequi odio repudiandae asperiores aliquid, enim ratione!</p>
+            <a href="" class="hero-btn">Quieres conocer mas?</a>
+        </div>
+
+    </section>
+
+    <section class="arqueros">
+        <h2>Nuestros arqueros</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, eos.</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--JAVASCRIPT FOR TOGGLE MENU-->
+    <script>
+        const navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+
+    </script>
+</body>
+</html>
