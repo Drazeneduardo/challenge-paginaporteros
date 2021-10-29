@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon-16x16.png" type="image/x-icon" />
+    <title>Challenge TodoPorteros by Drazen for Nucba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/66af92cb03.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!--HEADER-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="/assets/logo.jpg" alt="" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa-window-close fa" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">INICIO</a></li>
+                    <li><a href="/historia.html">HISTORIA</a></li>
+                    <li><a href="">PROGRAMAS</a></li>
+                    <li><a href="">INGRESA</a></li>
+                    <li><a href="">CONTACTANOS</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars fa" onclick="showMenu()"></i>
+        </nav>
+
+       <h1>Nuestra historia</h1>
+    </section>
+
+    <!--Historia sobre TODOPORTEROS-->
+    <section class="historia">
+        <div class="row">
+            <div class="historia-col">
+                <h2>Somos la mejor academia de arqueros del mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae blanditiis quam quas? Illo, dolor nihil? Consequuntur, deserunt. Asperiores fuga inventore fugiat vel quae similique deleniti architecto aliquid suscipit! Tempora.</p>
+                <a href="" class="hero-btn red-btn">Inscríbete</a>
+            </div>
+            <div class="historia-col">
+                <img src="/assets/historia2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+
+    <section class="footer">
+        <h4>Sigue nuestras redes</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odio expedita numquam hic ipsam dignissimos. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, eaque?</p>
+
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <p> &copy; Hecho con <i class="far fa-heart"></i> por Drazen para Nucba </p>
+
+    </section>
+
+
+
+
+    <!--JAVASCRIPT FOR TOGGLE MENU-->
+    <script>
+        const navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
