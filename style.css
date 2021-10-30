@@ -436,3 +436,75 @@ h3{
 .red-btn:hover{
     color: var(--white-color);
 }
+
+/*REFERENCIAS*/
+
+.referencias {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.ref-left{
+    flex-basis: 65%;
+}
+
+.ref-left img{
+    width: 100%;
+}
+
+.ref-left h2{
+    color: var(--darker-color);
+    font-weight: 600;
+    margin: 30px 0;
+}
+.ref-left p{
+    color: var(--light-dark-color);
+    padding: 0;
+}
+
+.ref-right {
+    flex-basis: 32%;
+}
+
+.ref-right h3{
+    background: var(--brigther-red);
+    color: var(--white-color);
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.ref-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--light-dark-color);
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.comment-box{
+    border: 1px solid var(--normal-red);
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.comment-box h3{
+    text-align: left;
+}
+
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: var(--ligth-gray);
+
+}
+
+.comment-form button{
+    margin: 10px 0;
+}
