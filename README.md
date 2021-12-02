@@ -1,6 +1,6 @@
 # challenge-paginaporteros
-### ME EMOCIONE!, con todo este finde espero meterle
-### Este finde 23-24oct no le di nada:c a seguir esta semana
-### Hoy 28/10 se le dio fuerte espero terminarla para mañana
-### 29/10 bastante productivo, solo quedaria la pagina de contacto y el login de ingreso para entregar el proyecto, links agregados a los iconos
-### 5/11 Logre finalizar mi primer integrador! formulario de registro y login realizados con sus mediaqueries
+### Mi primer proyecto para Nucba, usando solo HTML y CSS
+### Puedes visitarlo acá ==> https://challenge-paginaporteros.vercel.app/
+
+### Mi first proyect for Nucba, i used only HTML and CSS
+### You can visit my page right here ==> https://challenge-paginaporteros.vercel.app/
